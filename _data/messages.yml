@@ -15,37 +15,4 @@ locales:
   en_UK:
     <<: *DEFAULT_EN     # use English translation for en_UK
 
-  # German translation
-  # -------------------
-  de: &DEFAULT_DE
-    <<: *DEFAULT_EN     # load English values as default
-    overview: "&Uuml;bersicht"
-    toc: "Inhalt"
-    written_by: "Verfasst von"
-    updated: "Zuletzt aktualisiert:"
-    share: ""
-  de_DE:
-    <<: *DEFAULT_DE     # use German translation for de_DE
-
-  # French translation (TODO)
-  # -------------------
-  fr: &DEFAULT_FR
-    <<: *DEFAULT_EN     # load English values as default
-    overview: "Aperçu"
-    toc: "Table des matières"
-    written_by: "Écrit par"
-    updated: "Mis à jour"
-    share: "Partager sur"
-  fr_FR:
-    <<: *DEFAULT_FR      # use French translation for fr_FR
-   
-   # Korean translation _ test
-   kr: &DEFAULT_KR
-    <<:*DEFAULT_EN # load English values as default
-    overview: "개요"
-    toc: "내용"
-    written_by: "적어버린 닝겐"
-    updated: "업뎃해버림"
-    share: "공유"
-    kr_KR:
-   <<: *DEFAULT_KR
+ 
