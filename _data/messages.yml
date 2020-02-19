@@ -41,11 +41,11 @@ locales:
    
    # Korean translation _ test
    kr: &DEFAUlT_KR
-   <<:*DEFAULT_KR # load Korean values as default
-   overview: "개요"
-   toc: "내용"
-   written_by: "적어버린 닝겐"
-   updated: "업뎃해버림"
-   share: "공유"
-   kr_KR:
+    <<:*DEFAULT_KR # load Korean values as default
+    overview: "개요"
+    toc: "내용"
+    written_by: "적어버린 닝겐"
+    updated: "업뎃해버림"
+    share: "공유"
+    kr_KR:
    <<: *DEFAULT_KR
